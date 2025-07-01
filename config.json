@@ -1,0 +1,42 @@
+{
+    "voice_settings": {
+        "narrator": {
+            "rate": 180,
+            "volume": 0.9,
+            "voice_preference": "neutral"
+        },
+        "male": {
+            "rate": 170,
+            "volume": 0.95,
+            "voice_preference": "male"
+        },
+        "female": {
+            "rate": 160,
+            "volume": 0.95,
+            "voice_preference": "female"
+        },
+        "dragon": {
+            "rate": 120,
+            "volume": 1.0,
+            "voice_preference": "male"
+        },
+        "orc": {
+            "rate": 140,
+            "volume": 1.0,
+            "voice_preference": "male"
+        }
+    },
+    "character_classifications": {
+        "dragon_keywords": ["dragon", "wyrm", "drake", "smaug", "draconic", "scales", "fire", "breath"],
+        "orc_keywords": ["orc", "ork", "goblin", "grok", "uruk", "grommash", "grunt", "troll"],
+        "female_patterns": [".*a$", ".*ia$", ".*ina$", ".*ara$", ".*ella$", ".*ette$"],
+        "female_names": ["alice", "emma", "sophia", "isabella", "luna", "aria", "elena", "sarah", "mary", "elizabeth"],
+        "male_names": ["john", "david", "michael", "alex", "thomas", "aragorn", "gandalf", "legolas", "frodo", "sam"]
+    },
+    "dialogue_patterns": {
+        "speech_verbs": ["said", "asked", "replied", "shouted", "whispered", "muttered", "exclaimed", "cried", "yelled", "growled", "snarled", "hissed"],
+        "pause_between_segments": 0.5,
+        "show_progress": true,
+        "show_segment_table": true
+    }
+}
